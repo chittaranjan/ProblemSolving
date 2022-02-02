@@ -9,7 +9,7 @@ public class TestReverseBits {
 
   @Before
   public void init() {
-
+    reverseBits = new ReverseBits();
   }
 
   @Test
