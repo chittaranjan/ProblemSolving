@@ -1,9 +1,13 @@
+package Bitwise;
+
+import java.util.List;
+
 /**
 * Given an array of integers A, every element appears twice except for one. Find that single one.
 *
 * NOTE: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 **/
-public class Solution {
+public class SingleNumberI {
     public int singleNumber(final List<Integer> A) {
         /**
         * Using Bitisw xor properties :

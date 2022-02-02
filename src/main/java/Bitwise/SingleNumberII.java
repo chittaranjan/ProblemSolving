@@ -1,3 +1,5 @@
+package Bitwise;
+
 /**
 *Given an integer array nums where every element appears three times except for one,
 *which appears exactly once. Find the single element and return it.
@@ -6,7 +8,7 @@
 
 * Leetcode problem #137
 */
-class Solution {
+class SingleNumberII {
     public int singleNumber(int[] nums) {
       int ans  =0;
       //since given integer array, outer loop runs for 32 bits

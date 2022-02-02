@@ -1,7 +1,9 @@
+package Bitwise;
+
 /*
 * Given two binary strings, return their sum (also a binary string).
 */
-public class Solution {
+public class BinaryAddition {
     public String addBinary(String A, String B) {
         StringBuilder sb = new StringBuilder();
         int i =A.length()-1;
