@@ -1,8 +1,13 @@
+package Bitwise;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
 * Given an integer array A of N integers,
 * find the pair of integers in the array which have minimum XOR value. Report the minimum XOR value.
 **/
-public class Solution {
+public class MinimumXoR {
     public int findMinXor(ArrayList<Integer> A) {
         int n = A.size();
         // Sort given list
