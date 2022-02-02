@@ -17,4 +17,11 @@ public class TestBinaryAddition {
         String result = binaryAddition.addBinary("100", "11");
         Assert.assertEquals(result, "111");
     }
+
+    @Test
+    public void testAdditionNegative() {
+        String result = binaryAddition.addBinary("11111111111111111111111111111111",
+                "10000000000000000000000000000000");
+        Assert.assertNotEquals("101111111111111111111111111111110", result);
+    }
 }
